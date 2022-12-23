@@ -1,0 +1,35 @@
+.Galerie-flex {
+min-height: 100vh;
+display: flex;
+text-align: center;
+}
+.project-one {
+width: 50%;
+text-align: center;
+background-color: #dcdcdc;
+position: relative;
+}
+.Project-two {
+width: 50%;
+background-color: rgba(147, 152, 239, 0.608);
+text-align: center;
+}
+.project-one-cercle {
+width: 16em;
+height: 16em;
+border-radius: 50%;
+background-color: rgb(27, 23, 23);
+position: absolute;
+top: 50%;
+right: -8em;
+transform: translateY(-50%);
+}
+.project-two-cercle{
+
+}
+.Galerie-h1 {
+    color: blue;
+    text-align: center;
+    top: 50px;
+    margin: 15px;
+}
